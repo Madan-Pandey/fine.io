@@ -19,7 +19,7 @@ section{
 div{
     position: relative;
     background-color: grey;
-    border:2px solid black;
+    border:3px solid black;
     width:100%;
     margin-left: auto;
     margin-right: auto;
@@ -28,30 +28,29 @@ div{
 }
 .s1{
     float: right;
-    width:130px;
+    width:120px;
     padding:5px;
     margin:0px;
     border:3px solid black;
     text-align: center;
     font-size: 125%;
     font-weight: bold;
-    background-color: rgb(227, 117, 77);
+    background-color: rgb(223, 10, 10);
 
 }
 .s2{
     float: right;
-    width:130px;
+    width:120px;
     padding:5px;
     margin:0px;
     border:3px solid black;
     text-align: center;
     font-size: 125%;
     font-weight: bold;
-    background-color: rgba(177, 63, 63, 0.728);  
-}
+    background-color: tomato;}
 .s3{
     float: right;
-    width:130px;
+    width:120px;
     padding:5px;
     margin:0px;
     border:3px solid black;
@@ -63,12 +62,13 @@ div{
 .content{
     padding:5px;
     border:none;
-    background-color: gray;
+    background-color: grey;
     color:black;
     margin:0px;
-    height:200px;
+    height:120px;
     overflow: auto;
     clear:right;
+    padding-bottom:-5px;
 }
 .row{
     width:90%
